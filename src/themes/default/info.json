@@ -1,0 +1,9 @@
+{
+  "application": "your_project",
+  "identifier": "default",
+  "name": "Default Theme",
+  "author": "Your Name",
+  "description": "The default theme for the application.",
+  "doctype": "html5"
+}
+

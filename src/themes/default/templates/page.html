@@ -1,0 +1,8 @@
+{% extends theme('layout.html') %}
+
+{% block title %}{{ page }} - {{ space }}{% endblock %}
+
+{% block content %}
+<h2>{{ page }} ({{ space }})</h2>
+<div>{{ content|safe }}</div>
+{% endblock %}

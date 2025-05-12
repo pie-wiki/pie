@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ theme_get_info('name') }}</title>
+  <link rel="stylesheet" href="{{ theme_static('style.css') }}">
+</head>
+<body>
+    <nav>
+        {% if session.get('username') %}
+            Logged in as {{ session['username'] }} | <a href="{{ url_for('login.logout') }}">Logout</a>
+        {% else %}
+            <a href="{{ url_for('login.login') }}">Login</a>
+        {% endif %}
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>

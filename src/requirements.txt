@@ -1,0 +1,4 @@
+flask>=2.2
+flask-login>=0.6
+flask_themes2
+markdown
