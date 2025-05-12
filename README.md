@@ -85,12 +85,24 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-asd
+Pie Wiki aims to provide a typical Wiki site with formatting done in Markdown.
+
+The primary goals of this project:
+
+- Modular development
+- Easily extendible
+- Minimal database dependencies
+
+This project was created primarily to address a lack of support for similar projects in this space. Most projects hold fundamental ideaologies rooted in pre-containerization times, where-as this project is developed solely with containerization in mind.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
+
+
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
