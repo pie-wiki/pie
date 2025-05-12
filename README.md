@@ -87,13 +87,12 @@
 
 Pie Wiki aims to provide a typical Wiki site with formatting done in Markdown.
 
-The primary goals of this project:
+### Project Goals
 
-- Modular development
-- Easily extendible
-- Minimal database dependencies
+This project
 
-This project was created primarily to address a lack of support for similar projects in this space. Most projects hold fundamental ideaologies rooted in pre-containerization times, where-as this project is developed solely with containerization in mind.
+- stars-shield
+- dsa
 
 
 
